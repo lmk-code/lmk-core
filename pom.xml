@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.lmk.core</groupId>
+    <artifactId>lmk-core</artifactId>
+    <version>1.0</version>
+    <modules>
+        <module>core-commons</module>
+        <module>core-web</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <description> LaoMake 项目核心依赖的统一定义 </description>
+
+    <properties>
+        <slf4j.version>1.7.30</slf4j.version>
+        <commons-lang3.version>3.11</commons-lang3.version>
+        <commons-io.version>2.8.0</commons-io.version>
+        <commons-codec.version>1.15</commons-codec.version>
+        <httpclient.version>4.5.13</httpclient.version>
+        <bcprov.version>1.68</bcprov.version>
+        <jackson.version>2.11.3</jackson.version>
+        <dom4j.version>1.6.1</dom4j.version>
+        <servlet.version>4.0.1</servlet.version>
+
+        <spring.version>5.3.2</spring.version>
+        <mybatis.version>3.5.6</mybatis.version>
+        <redis.version>2.4.1</redis.version>
+        <feign.version>10.12</feign.version>
+
+        <lmk-core.version>1.0</lmk-core.version>
+
+        <junit.version>5.7.0</junit.version>
+        <java.version>11</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven-dependency-plugin.version>3.1.2</maven-dependency-plugin.version>
+        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+        <maven-resources-plugin.version>3.2.0</maven-resources-plugin.version>
+        <maven-install-plugin.version>2.5.2</maven-install-plugin.version>
+        <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
+        <maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- Spring版本依赖 -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-webmvc</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+
+            <!-- MyBatis版本依赖 -->
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+
+            <!-- SpringDataRedis 版本依赖 -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-redis</artifactId>
+                <version>${redis.version}</version>
+            </dependency>
+
+            <!-- Feign 核心版本 -->
+            <dependency>
+                <groupId>io.github.openfeign</groupId>
+                <artifactId>feign-core</artifactId>
+                <version>${feign.version}</version>
+                <scope>compile</scope>
+            </dependency>
+
+            <!-- 日志依赖 -->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-log4j12</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+
+            <!-- Servlet-Api 依赖 -->
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${servlet.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- Jackson 依赖 -->
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+
+            <!-- Apache 全家桶依赖 -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons-io.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${commons-codec.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>${httpclient.version}</version>
+            </dependency>
+
+            <!-- 加密解密依赖 -->
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcprov-jdk15on</artifactId>
+                <version>${bcprov.version}</version>
+            </dependency>
+
+            <!-- DOM依赖 -->
+            <dependency>
+                <groupId>dom4j</groupId>
+                <artifactId>dom4j</artifactId>
+                <version>${dom4j.version}</version>
+            </dependency>
+
+            <!-- Junit -->
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <!-- compiler插件, 设定JDK版本 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <showWarnings>true</showWarnings>
+                </configuration>
+            </plugin>
+
+            <!-- resources插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>${maven-resources-plugin.version}</version>
+            </plugin>
+
+            <!-- install插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-install-plugin</artifactId>
+                <version>${maven-install-plugin.version}</version>
+            </plugin>
+
+            <!-- 打包发布源码包插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>${maven-source-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
