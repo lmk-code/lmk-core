@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * 功能菜单
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public class Action implements Serializable {
     /** 添加 */

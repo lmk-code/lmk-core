@@ -5,8 +5,7 @@ import com.lmk.core.web.monitor.annotation.BaseLog;
 /**
  * 日志信息
  * @author LaoMake
- * @since 1.0
- *
+ * @email laomake@hotmail.com
  */
 public class LogParams {
 

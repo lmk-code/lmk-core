@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 /**
  * 字段信息
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public class Column implements Serializable {
 

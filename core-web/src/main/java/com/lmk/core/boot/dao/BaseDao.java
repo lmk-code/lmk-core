@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Param;
  * DAO基础接口
  * @param <T>
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public interface BaseDao<T> {
     /**

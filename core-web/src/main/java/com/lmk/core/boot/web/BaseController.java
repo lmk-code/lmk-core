@@ -27,7 +27,7 @@ import com.lmk.core.web.monitor.bean.LogLevel;
  * 实现单表CRUD功能的抽象Controller <br/>
  * @param <T>
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public abstract class BaseController<T extends IdEntity> {
 

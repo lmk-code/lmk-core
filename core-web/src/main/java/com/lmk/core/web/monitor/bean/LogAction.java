@@ -3,8 +3,7 @@ package com.lmk.core.web.monitor.bean;
 /**
  * 日志行为
  * @author LaoMake
- * @since 1.0
- *
+ * @email laomake@hotmail.com
  */
 public enum LogAction {
     Create,

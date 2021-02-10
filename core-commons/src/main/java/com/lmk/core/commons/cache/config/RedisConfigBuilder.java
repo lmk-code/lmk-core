@@ -13,8 +13,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 /**
  * Redis工具类
  * @author LaoMake
- * @since 1.0
- *
+ * @email laomake@hotmail.com
  */
 public class RedisConfigBuilder {
 

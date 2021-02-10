@@ -1,17 +1,19 @@
 package com.lmk.core.web.auth.service.impl;
 
-import javax.servlet.http.HttpServletRequest;
 import java.util.concurrent.TimeUnit;
+import javax.servlet.http.HttpServletRequest;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import com.lmk.core.commons.cache.service.CacheService;
+import com.lmk.core.commons.utils.Encodes;
 import com.lmk.core.web.auth.bean.AuthKeys;
 import com.lmk.core.web.auth.bean.LoginUser;
 import com.lmk.core.web.auth.service.AdminUserAuthService;
-import com.lmk.core.commons.cache.service.CacheService;
-import com.lmk.core.commons.utils.Encodes;
 
 /**
  * 后台接口鉴权安全服务
+ * @author 编程浪子
+ * @email laomake@hotmail.com
  */
 public class AdminUserAuthServiceImpl implements AdminUserAuthService {
 

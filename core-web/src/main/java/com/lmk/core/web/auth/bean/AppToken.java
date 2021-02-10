@@ -3,7 +3,7 @@ package com.lmk.core.web.auth.bean;
 /**
  * 应用令牌
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public interface AppToken {
 

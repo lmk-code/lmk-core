@@ -5,8 +5,7 @@ import java.io.Serializable;
 /**
  * 含有ID主键的抽象基类
  * @author LaoMake
- * @since 1.0
- *
+ * @email laomake@hotmail.com
  */
 @SuppressWarnings("serial")
 public class IdEntity implements Serializable {
@@ -21,6 +20,5 @@ public class IdEntity implements Serializable {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	
-	
+
 }

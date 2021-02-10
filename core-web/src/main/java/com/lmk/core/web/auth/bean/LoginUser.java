@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 登录用户
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public interface LoginUser {
 

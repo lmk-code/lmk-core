@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * Web请求结果
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public class RequestResult {
 

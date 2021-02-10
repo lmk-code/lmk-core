@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
 /**
  * 启用 Laomake-SpringCloud 功能模块
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 
 @Target(ElementType.TYPE)

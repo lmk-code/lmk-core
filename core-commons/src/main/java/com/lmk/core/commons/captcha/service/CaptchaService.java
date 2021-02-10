@@ -11,7 +11,7 @@ import com.lmk.core.commons.utils.Encodes;
  * 验证码服务实现，需要手动导入到IOC容器
  *
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public class CaptchaService {
 

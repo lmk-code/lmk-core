@@ -3,7 +3,7 @@ package com.lmk.core.web.auth.bean;
 /**
  * 登录会员
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public interface LoginMember {
 

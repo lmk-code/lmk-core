@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 会员鉴权服务实现
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public class MemberAuthServiceImpl implements MemberAuthService {
 

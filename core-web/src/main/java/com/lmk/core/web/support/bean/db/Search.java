@@ -3,7 +3,7 @@ package com.lmk.core.web.support.bean.db;
 /**
  * 查询过滤器
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public class Search {
 	

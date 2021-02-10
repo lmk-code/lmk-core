@@ -5,8 +5,7 @@ import java.io.Serializable;
 /**
  * 图片验证码
  * @author LaoMake
- * @since 1.0
- *
+ * @email laomake@hotmail.com
  */
 public class ImageVerifyCode implements Serializable {
 

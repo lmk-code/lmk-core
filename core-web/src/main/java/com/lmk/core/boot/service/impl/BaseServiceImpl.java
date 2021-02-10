@@ -20,7 +20,7 @@ import com.lmk.core.boot.service.BaseService;
  * 实现BaseService接口的抽象基类
  * @param <T>
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public abstract class BaseServiceImpl<T extends IdEntity> implements BaseService<T> {
 

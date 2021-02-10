@@ -13,7 +13,7 @@ import com.lmk.core.commons.utils.BeanUtils;
 /**
  * Laomake-SpringCloud 模块后置处理器
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public class LcCloudBeanPostProcessor implements BeanPostProcessor {
 

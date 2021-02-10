@@ -17,8 +17,7 @@ import com.lmk.core.commons.utils.JsonUtils;
 /**
  * REST 服务请求工具
  * @author LaoMake
- * @since 1.0
- *
+ * @email laomake@hotmail.com
  */
 public class RestHelper {
 

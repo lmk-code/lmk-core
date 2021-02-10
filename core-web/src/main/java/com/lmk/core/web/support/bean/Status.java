@@ -3,7 +3,7 @@ package com.lmk.core.web.support.bean;
 /**
  * 通用的实体状态标识
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public enum Status {
     ENABLE(1, "启用"),

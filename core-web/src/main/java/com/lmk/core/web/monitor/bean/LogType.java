@@ -4,8 +4,7 @@ package com.lmk.core.web.monitor.bean;
  * 日志类型：
  * 0.公共类型，1.前台操作，2.后台操作，3.系统自动
  * @author LaoMake
- * @since 1.0
- *
+ * @email laomake@hotmail.com
  */
 public enum LogType {
 

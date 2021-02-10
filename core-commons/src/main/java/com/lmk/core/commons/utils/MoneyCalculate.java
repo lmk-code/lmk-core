@@ -6,8 +6,7 @@ import java.math.BigDecimal;
  * 高精度的资金计算器
  * 
  * @author LaoMake
- * @since 1.0
- *
+ * @email laomake@hotmail.com
  */
 public class MoneyCalculate {
 	

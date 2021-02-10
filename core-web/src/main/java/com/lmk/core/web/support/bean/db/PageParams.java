@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * 分页查询参数
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public class PageParams implements Serializable {
     /** 当前页码 */

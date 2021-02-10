@@ -6,7 +6,7 @@ package com.lmk.core.web.support.api;
  * 表单类：12
  * 用户类：13
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public class GenericStatusCode {
 

@@ -7,7 +7,7 @@ import java.io.Serializable;
 /**
  * 元信息
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public class Meta implements Serializable {
     /** 名称 */

@@ -10,8 +10,7 @@ import org.apache.commons.codec.digest.DigestUtils;
 /**
  * 单向加密工具类
  * @author LaoMake
- * @since 1.0
- *
+ * @email laomake@hotmail.com
  */
 public class Encodes{
 	

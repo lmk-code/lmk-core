@@ -5,6 +5,8 @@ import com.lmk.core.web.auth.bean.LoginUser;
 
 /**
  * 后台用户鉴权服务
+ * @author 编程浪子
+ * @email laomake@hotmail.com
  */
 public interface AdminUserAuthService extends AuthService {
 

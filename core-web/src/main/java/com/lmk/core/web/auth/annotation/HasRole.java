@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
 /**
  * 要求角色
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

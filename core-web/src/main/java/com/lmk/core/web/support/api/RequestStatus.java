@@ -3,7 +3,7 @@ package com.lmk.core.web.support.api;
 /**
  * 用于客户端显示的状态信息
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public class RequestStatus {
     private Integer code;

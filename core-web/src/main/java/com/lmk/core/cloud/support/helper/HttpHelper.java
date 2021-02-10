@@ -15,7 +15,7 @@ import com.lmk.core.web.support.api.GenericStatusCode;
  * HTTP请求辅助工具类
  * 主要功能：处理RestTemplate、Feign请求
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public class HttpHelper {
 

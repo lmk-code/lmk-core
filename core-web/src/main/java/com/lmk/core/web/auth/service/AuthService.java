@@ -10,6 +10,8 @@ import java.io.IOException;
 
 /**
  * 鉴权服务接口
+ * @author 编程浪子
+ * @email laomake@hotmail.com
  */
 public interface AuthService {
 

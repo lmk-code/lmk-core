@@ -7,7 +7,7 @@ import java.util.List;
  * @param <T>
  *
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public class Page<T> {
 

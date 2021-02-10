@@ -10,7 +10,7 @@ import com.lmk.core.boot.support.processor.LcBootBeanPostProcessor;
 /**
  * 启用 Laomake-SpringBoot 功能模块
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)

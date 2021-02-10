@@ -3,7 +3,7 @@ package com.lmk.core.web.support.bean.db;
 /**
  * 分页信息
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public class PageInfo {
     /** 当前页码 */

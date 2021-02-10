@@ -5,8 +5,7 @@ import java.io.Serializable;
 /**
  * 短信验证码
  * @author LaoMake
- * @since 1.0
- *
+ * @email laomake@hotmail.com
  */
 public class SmsVerifyCode implements Serializable {
 

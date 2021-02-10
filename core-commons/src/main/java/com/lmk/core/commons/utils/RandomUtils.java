@@ -5,8 +5,7 @@ import java.security.SecureRandom;
 /**
  * 随机数生成器
  * @author LaoMake
- * @since 1.0
- *
+ * @email laomake@hotmail.com
  */
 public class RandomUtils {
 

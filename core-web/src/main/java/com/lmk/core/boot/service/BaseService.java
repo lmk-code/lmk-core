@@ -13,7 +13,7 @@ import com.lmk.core.boot.entity.IdEntity;
  * 基础的CRUD服务接口
  * @param <T>
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public interface BaseService<T extends IdEntity> {
 

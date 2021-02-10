@@ -9,7 +9,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 /**
  * JSON工具类
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public class JsonUtils {
     /** 通用的解析器 */

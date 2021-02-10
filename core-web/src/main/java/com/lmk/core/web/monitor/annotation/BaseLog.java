@@ -11,8 +11,7 @@ import com.lmk.core.web.monitor.bean.LogType;
 /**
  * API 接口调用日志注解
  * @author LaoMake
- * @since 1.0
- *
+ * @email laomake@hotmail.com
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

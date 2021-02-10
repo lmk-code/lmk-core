@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 客户端信息
  * @author LaoMake
- * @since 1.0
+ * @email laomake@hotmail.com
  */
 public class ClientInfo {
 
