@@ -6,7 +6,7 @@ import java.util.Date;
 
 /**
  * 管理后台实体
- * @author 编程浪子
+ * @author LaoMake
  * @email laomake@hotmail.com
  */
 public class AdminEntity extends IdEntity{

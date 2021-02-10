@@ -12,7 +12,7 @@ import com.lmk.core.web.auth.service.AdminUserAuthService;
 
 /**
  * 后台接口鉴权安全服务
- * @author 编程浪子
+ * @author LaoMake
  * @email laomake@hotmail.com
  */
 public class AdminUserAuthServiceImpl implements AdminUserAuthService {

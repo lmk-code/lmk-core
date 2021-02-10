@@ -2,7 +2,7 @@ package com.lmk.core.web.auth.bean;
 
 /**
  * 授权时缓存KEY
- * @author 编程浪子
+ * @author LaoMake
  * @email laomake@hotmail.com
  */
 public class AuthKeys {

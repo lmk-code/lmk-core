@@ -6,7 +6,7 @@ import com.lmk.core.web.support.bean.http.ClientInfo;
 
 /**
  * 基础日志服务
- * @author 编程浪子
+ * @author LaoMake
  * @email laomake@hotmail.com
  */
 public interface BaseLogService {

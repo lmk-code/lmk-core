@@ -2,7 +2,7 @@ package com.lmk.core.web.support.api;
 
 /**
  * 请求响应的状态码
- * @author 编程浪子
+ * @author LaoMake
  * @email laomake@hotmail.com
  */
 public class StatusCode{
