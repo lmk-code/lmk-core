@@ -14,11 +14,8 @@ public class AdminEntity extends IdEntity{
     /** 当前登录用户 */
     protected LoginUser loginUser;
 
-    /** 创建时间 */
-    protected Date createTime;
-
-    /** 修改时间 */
-    protected Date updateTime;
+    /** 操作时间 */
+    protected Date operateTime = new Date();
 
     public LoginUser getLoginUser() {
         return loginUser;
@@ -28,19 +25,11 @@ public class AdminEntity extends IdEntity{
         this.loginUser = loginUser;
     }
 
-    public Date getCreateTime() {
-        return createTime;
+    public Date getOperateTime() {
+        return operateTime;
     }
 
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
-    }
-
-    public Date getUpdateTime() {
-        return updateTime;
-    }
-
-    public void setUpdateTime(Date updateTime) {
-        this.updateTime = updateTime;
+    public void setOperateTime(Date operateTime) {
+        this.operateTime = operateTime;
     }
 }
