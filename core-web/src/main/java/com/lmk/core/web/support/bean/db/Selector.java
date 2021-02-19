@@ -157,8 +157,6 @@ public class Selector {
 	
 	/**
 	 * 解析查询参数，指定表名
-	 * @author LaoMake
-	 * @since 1.0
 	 * @param searchString
 	 * @param tableName
 	 */
