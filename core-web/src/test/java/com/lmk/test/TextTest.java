@@ -1,12 +1,20 @@
 package com.lmk.test;
 
+import com.lmk.core.commons.utils.IdUtils;
 import org.junit.jupiter.api.Test;
 import com.lmk.core.commons.utils.Encodes;
+
+import java.util.UUID;
 
 /**
  * 文本测试
  */
 public class TextTest {
+
+    @Test
+    public void testUUID(){
+        System.out.println(IdUtils.uuid());
+    }
 
     @Test
     public void testSortStr(){
