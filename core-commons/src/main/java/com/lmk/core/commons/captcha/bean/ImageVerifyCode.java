@@ -9,8 +9,8 @@ import java.io.Serializable;
  */
 public class ImageVerifyCode implements Serializable {
 
-    /** 验证码 */
-    private String code;
+    /** 验证码ID */
+    private String id;
 
     /** BASE64编码的图片 */
     private String img;
@@ -18,12 +18,17 @@ public class ImageVerifyCode implements Serializable {
     public ImageVerifyCode() {
     }
 
-    public String getCode() {
-        return code;
+    public ImageVerifyCode(String id, String img) {
+        this.id = id;
+        this.img = img;
     }
 
-    public void setCode(String code) {
-        this.code = code;
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getImg() {

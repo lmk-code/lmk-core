@@ -24,6 +24,7 @@
         <bcprov.version>1.68</bcprov.version>
         <jackson.version>2.11.4</jackson.version>
         <dom4j.version>1.6.1</dom4j.version>
+        <kaptcha.version>2.3.2</kaptcha.version>
         <servlet.version>4.0.1</servlet.version>
 
         <spring.version>5.3.4</spring.version>
@@ -102,6 +103,13 @@
                 <artifactId>javax.servlet-api</artifactId>
                 <version>${servlet.version}</version>
                 <scope>provided</scope>
+            </dependency>
+
+            <!--验证码 -->
+            <dependency>
+                <groupId>com.github.penggle</groupId>
+                <artifactId>kaptcha</artifactId>
+                <version>${kaptcha.version}</version>
             </dependency>
 
             <!-- Jackson 依赖 -->
