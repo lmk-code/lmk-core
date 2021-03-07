@@ -8,6 +8,14 @@ package com.lmk.core.web.auth.bean;
 public interface LoginMember {
 
     /**
+     * 获取用户ID
+     * @return
+     */
+    default Integer getId(){
+        return null;
+    };
+
+    /**
      * 获取用户OpenId
      * @return
      */

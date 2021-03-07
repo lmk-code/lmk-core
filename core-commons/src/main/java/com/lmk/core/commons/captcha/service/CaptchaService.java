@@ -78,7 +78,7 @@ public class CaptchaService {
         FastByteArrayOutputStream os = new FastByteArrayOutputStream();
         ImageIO.write(image, "jpg", os);
 
-        return new ImageVerifyCode(uuid, Base64.encodeBase64String(os.toByteArray()));
+        return new ImageVerifyCode(uuid, "data:image/jpg;base64," + Base64.encodeBase64String(os.toByteArray()));
     }
 
     /**
@@ -123,15 +123,15 @@ public class CaptchaService {
                     textDefaultCaptcha = new DefaultKaptcha();
                     Properties properties = new Properties();
                     // 是否有边框 默认为true 我们可以自己设置yes，no
-                    properties.setProperty(KAPTCHA_BORDER, "yes");
+                    properties.setProperty(KAPTCHA_BORDER, "no");
                     // 验证码文本字符颜色 默认为Color.BLACK
                     properties.setProperty(KAPTCHA_TEXTPRODUCER_FONT_COLOR, "black");
                     // 验证码图片宽度 默认为200
-                    properties.setProperty(KAPTCHA_IMAGE_WIDTH, "160");
+                    properties.setProperty(KAPTCHA_IMAGE_WIDTH, "120");
                     // 验证码图片高度 默认为50
-                    properties.setProperty(KAPTCHA_IMAGE_HEIGHT, "60");
+                    properties.setProperty(KAPTCHA_IMAGE_HEIGHT, "40");
                     // 验证码文本字符大小 默认为40
-                    properties.setProperty(KAPTCHA_TEXTPRODUCER_FONT_SIZE, "38");
+                    properties.setProperty(KAPTCHA_TEXTPRODUCER_FONT_SIZE, "34");
                     // KAPTCHA_SESSION_KEY
                     properties.setProperty(KAPTCHA_SESSION_CONFIG_KEY, "kaptchaCode");
                     // 验证码文本字符长度 默认为5
@@ -155,17 +155,17 @@ public class CaptchaService {
                     mathDefaultCaptcha = new DefaultKaptcha();
                     Properties properties = new Properties();
                     // 是否有边框 默认为true 我们可以自己设置yes，no
-                    properties.setProperty(KAPTCHA_BORDER, "yes");
+                    properties.setProperty(KAPTCHA_BORDER, "no");
                     // 边框颜色 默认为Color.BLACK
-                    properties.setProperty(KAPTCHA_BORDER_COLOR, "105,179,90");
+                    properties.setProperty(KAPTCHA_BORDER_COLOR, "160,160,160");
                     // 验证码文本字符颜色 默认为Color.BLACK
                     properties.setProperty(KAPTCHA_TEXTPRODUCER_FONT_COLOR, "blue");
                     // 验证码图片宽度 默认为200
-                    properties.setProperty(KAPTCHA_IMAGE_WIDTH, "160");
+                    properties.setProperty(KAPTCHA_IMAGE_WIDTH, "120");
                     // 验证码图片高度 默认为50
-                    properties.setProperty(KAPTCHA_IMAGE_HEIGHT, "60");
+                    properties.setProperty(KAPTCHA_IMAGE_HEIGHT, "40");
                     // 验证码文本字符大小 默认为40
-                    properties.setProperty(KAPTCHA_TEXTPRODUCER_FONT_SIZE, "35");
+                    properties.setProperty(KAPTCHA_TEXTPRODUCER_FONT_SIZE, "34");
                     // KAPTCHA_SESSION_KEY
                     properties.setProperty(KAPTCHA_SESSION_CONFIG_KEY, "kaptchaCodeMath");
                     // 验证码文本生成器
